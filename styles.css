@@ -245,6 +245,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  margin-bottom: 18px;
 }
 
 .download-note span {
@@ -255,6 +256,18 @@ h3 {
   background: rgba(255, 255, 255, 0.72);
   font-size: 0.88rem;
   font-weight: 800;
+}
+
+.developer-credit {
+  margin: 0;
+  color: #35415b;
+  font-size: 0.98rem;
+  line-height: 1.55;
+}
+
+.developer-credit strong {
+  color: var(--ink);
+  font-weight: 900;
 }
 
 .hero-visual {
@@ -271,32 +284,6 @@ h3 {
 .hero-visual img {
   width: 100%;
   border-radius: 12px;
-}
-
-.hero-visual figcaption {
-  position: absolute;
-  left: 28px;
-  right: 28px;
-  bottom: 28px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  padding: 14px 16px;
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  border-radius: var(--radius);
-  color: #ffffff;
-  background: rgba(6, 17, 39, 0.78);
-  backdrop-filter: blur(14px);
-}
-
-.hero-visual figcaption strong {
-  white-space: nowrap;
-}
-
-.hero-visual figcaption span {
-  color: rgba(255, 255, 255, 0.78);
-  font-size: 0.92rem;
 }
 
 .wordmark-section {
@@ -630,18 +617,6 @@ h3 {
   .hero-actions,
   .download-note {
     display: grid;
-  }
-
-  .hero-visual figcaption {
-    position: static;
-    margin-top: 12px;
-    color: var(--ink);
-    background: #ffffff;
-    border-color: var(--line);
-  }
-
-  .hero-visual figcaption span {
-    color: var(--muted);
   }
 
   .feature-grid,
